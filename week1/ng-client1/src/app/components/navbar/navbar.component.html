@@ -1,0 +1,43 @@
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">{{title}}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search Problem">
+        </div>
+
+
+      </form>
+     <ul class="nav navbar-nav navbar-right">
+       <li>
+         <form class="navbar">
+           <button type="button" class="btn btn-primary">Sign in</button>
+         </form>
+
+       </li>
+       <li class="dropdown">
+         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{username}}</a>
+         <ul class="dropdown-menu">
+           <li><a href="#">My Profile</a></li>
+           <li><a href="#">My favorite</a></li>
+           <li><a href="#">My submissions</a></li>
+           <li role="separator" class="dropdown-divider"></li>
+           <li><a href="#">Log Out</a></li>
+         </ul>
+       </li>
+
+     </ul>
+    </div>
+  </nav>
+
+</div>
